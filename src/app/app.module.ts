@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IconComponent } from './components/icon/icon.component';
 import { ToastrModule } from 'ngx-toastr';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BetaComponent } from './beta/beta.component'
 @NgModule({
   declarations: [
     AppComponent,
     IconComponent,
+    BetaComponent,
     
     
   ],
